@@ -1,0 +1,56 @@
+body{
+    background-color: #8BBCCC;
+}
+
+
+h1{
+    margin: 30px;
+    font-family: Alkalami;
+    font-size: 8rem;
+    color: #000000;
+}
+
+p{
+    font-size: 2rem;
+    color: brown;
+    font-family: cursive;
+}
+
+img{
+    width: 50%;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.conatiner{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+.copyright{
+    font-size: 1rem;
+}
+
+
+@media(max-width:430px)
+{
+    h1{
+        text-align: center;
+    }
+    img{
+        position: static;
+    }
+    p{
+        text-align: center;
+    }
+}
